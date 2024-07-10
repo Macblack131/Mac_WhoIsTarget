@@ -1,0 +1,71 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+UI_shared.xsd">
+
+    <Script file="Mac_WhoIsTarget.lua"/>
+
+    <Frame name="Frame1" parent="UIParent">
+        <Anchors>
+            <Anchor point="CENTER"/>
+        </Anchors>
+        <Size x="40" y="40" />
+        <Layers>
+            <Layer level="OVERLAY" textureSubLevel="1">                
+                <Texture parentKey="Texture">
+                    <Size x="40" y="40" />
+                    <Anchors>
+                        <Anchor point="CENTER"/>
+                    </Anchors>
+                </Texture>
+            </Layer>  
+        </Layers>
+    </Frame>
+
+    <Frame name="Frame2" parent="UIParent">
+        <Anchors>
+            <Anchor point="CENTER"/>
+        </Anchors>
+        <Size x="40" y="40" />
+        <Layers>
+            <Layer level="OVERLAY" textureSubLevel="1">                
+                <Texture parentKey="Texture">
+                    <Size x="40" y="40" />
+                    <Anchors>
+                        <Anchor point="CENTER"/>
+                    </Anchors>
+                </Texture>
+            </Layer>  
+        </Layers>
+    </Frame>
+
+    <Frame name="Frame3" parent="UIParent">
+        <Anchors>
+            <Anchor point="CENTER"/>
+        </Anchors>
+        <Size x="40" y="40" />
+        <Layers>
+            <Layer level="OVERLAY" textureSubLevel="1">                
+                <Texture parentKey="Texture">
+                    <Size x="40" y="40" />
+                    <Anchors>
+                        <Anchor point="CENTER"/>
+                    </Anchors>
+                </Texture>
+            </Layer>  
+        </Layers>
+    </Frame>
+
+    <Frame name="Mac_WhoIsTarget" mixin="Mac_WhoIsTargetMixin">
+        <Anchors>
+            <Anchor point="TOP"/>
+        </Anchors>
+        <Size x="40" y="40" />
+        <Scripts>
+            <OnLoad>
+                self:OnLoad()
+            </OnLoad>
+            <OnEvent method="OnEvent" />
+        </Scripts>
+    </Frame>
+
+    
+</Ui>
