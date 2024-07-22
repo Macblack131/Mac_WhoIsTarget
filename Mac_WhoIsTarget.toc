@@ -2,6 +2,7 @@
 ## Title: Mac_WhoIsTarget
 ## Version: 1
 ## Author: Mac
+## IconTexture: Interface\AddOns\Mac_WhoIsTarget\icon.tga
 
 Mac_WhoIsTarget.xml
 Mac_WhoIsTarget.lua
